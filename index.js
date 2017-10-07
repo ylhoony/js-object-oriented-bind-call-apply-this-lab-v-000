@@ -10,3 +10,8 @@
  function setThisWithApply(fn, thisValue, args) {
    return args ?  fn.apply(thisValue, [...args]) : fn.apply(thisValue);
  }
+
+function returnNewFunctionOf(functionToBeCopied, thisValue) {
+
+  return functionToBeCopied.bind(thisValue);
+}
