@@ -12,5 +12,6 @@
  }
 
 function returnNewFunctionOf(functionToBeCopied, thisValue) {
-  return functionToBeCopied.bind(thisValue);
+  let newFunction = functionToBeCopied.bind(thisValue);
+  return newFunction;
 }
