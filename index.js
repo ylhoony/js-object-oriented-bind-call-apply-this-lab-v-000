@@ -4,5 +4,5 @@
  }
 
  function setThisWithCall(fn, thisValue) {
-   return this.call(thisValue);
+   return fn.call(thisValue);
  }
