@@ -1,5 +1,5 @@
 const expect = chai.expect;
-
+ 
 describe('global functions', function() {
   let returnsThis;
   let bob;
